@@ -26,5 +26,173 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+		
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Survey Questions</h2>
+          <hr>
+          <h2>About You</h2>
+          <form id="survey">
+            <div class="form-group">
+              <label for="Name">Name (Required)</label>
+              <input type="text" class="form-control" id="name" aria-describedby="nameField" placeholder="" required=""></input>
+            </div>
+            <div class="form-group">
+              <label for="Image">Link to Photo Image (Required)</label>
+              <input type="url" class="form-control" id="image" aria-describedby="imageField" placeholder="" required=""></input>
+            </div>
+            <hr>
+            <div class="form-group">
+              <label for="question1"><h3>Question 1</h3><p>It is okay to answer your cell phone when you are out with a friend</p></label>
+                <select class="form-control" id="question1" style="width: 180px;">
+                  <option></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+              <label for="question2"><h3>Question 2</h3><p>You need to be the one to decide what activity you/your group should do</p></label>
+                <select class="form-control" id="question2" style="width: 180px;">
+                  <option></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+              <label for="question3"><h3>Question 3</h3><p>You enjoy doing active outdoor activities</p></label>
+                <select class="form-control" id="question3" style="width: 180px;">
+                  <option></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+              <label for="question4"><h3>Question 4</h3><p>You enjoy quiet indoor activities</p></label>
+                <select class="form-control" id="question4" style="width: 180px;">
+                  <option></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+              <label for="question5"><h3>Question 5</h3><p>You like to discuss politics and/or religion</p></label>
+                <select class="form-control" id="question5" style="width: 180px;">
+                  <option></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+              <label for="question6"><h3>Question 6</h3><p>You like to ask questions to your friends</p></label>
+                <select class="form-control" id="question6" style="width: 180px;">
+                  <option></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+              <label for="question7"><h3>Question 7</h3><p>You like to answer questions from your friends</p></label>
+                <select class="form-control" id="question7" style="width: 180px;">
+                  <option></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+              <label for="question8"><h3>Question 8</h3><p>You like to drink socially</p></label>
+                <select class="form-control" id="question8" style="width: 180px;">
+                  <option></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+              <label for="question9"><h3>Question 9</h3><p>You are okay with a friend that smokes</p></label>
+                <select class="form-control" id="question9" style="width: 180px;">
+                  <option></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+              <label for="question10"><h3>Question 10</h3><p>You like to make plans only on the weekend</p></label>
+                <select class="form-control" id="question10" style="width: 180px;">
+                  <option></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <a href="/api/friends">API Friends List</a> | <a href="https://github.com/TJANGEL/FriendFinder">GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+  
+  
+  <div id="resultsModal" class="modal fade in" role="dialog" style="display: none;">
+      <div class="modal-dialog">
+  
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">×</button>
+            <h2 class="modal-title"><strong>Best Match</strong></h2>
+          </div>
+          <div class="modal-body">
+            <h2 id="matchName">test</h2>
+            <img id="matchImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Hurricane_Isabel_from_ISS.jpg/300px-Hurricane_Isabel_from_ISS.jpg" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal" id="close">Close</button>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  <script type="text/javascript"></script>
+  
+  </body>
 </html>
