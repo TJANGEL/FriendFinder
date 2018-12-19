@@ -6,6 +6,8 @@ User Responds to 10 questions with a value from 1 (Strongly Disagree) to 5 (Stro
 
 When the survey is submitted, the user's answers are compared with answers from a list of "friends" and matched with a friend with the closest values for each question
 
+![friendfinder](https://github.com/TJANGEL/FriendFinder/blob/master/friendfinder_screenshot.png)
+
 ## Heroku Deployed Link
 
 `https://immense-dusk-23825.herokuapp.com/`
