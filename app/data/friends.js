@@ -1,4 +1,4 @@
-// Data structure that will store the friends data
+// Friends Array of Objects (Parks and Rec Themed)
 var friendsArray = [
   {
     name: "Leslie Knope",

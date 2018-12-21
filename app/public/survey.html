@@ -27,7 +27,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"
     />
 
-    <!-- Materialize JS -->
+    <!-- Materialize JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
     <!-- CSS -->
@@ -299,7 +299,7 @@
       $(document).ready(function() {
         $("select").material_select();
         $(".modal").modal({
-          dismissible: false, // Modal can be dismissed by clicking outside of the modal
+          dismissible: true, // Modal can be dismissed by clicking outside of the modal
           opacity: 0.5, // Opacity of modal background
           inDuration: 300, // Transition in duration
           outDuration: 200, // Transition out duration
@@ -307,7 +307,7 @@
           endingTop: "10%" // Ending top style attribute
         });
       });
-      // Activate submit button
+      // On Click event
       $("#submitButton").on("click", function(event) {
         event.preventDefault();
         // Gather user inputs
@@ -351,7 +351,6 @@
               .trim()
           ]
         };
-        // console.log('userInput = ' + JSON.stringify(userInput));
         // Add user inputs to friends list
         $.post("/api/friends", userInput).done(function(data) {
           // console.log('response = ' + JSON.stringify(data));
