@@ -2,7 +2,7 @@
 
 Friend Finder is a survey app for matching users with compatible friends.
 
-User Responds to 10 questions with a value from 1 (Strongly Disagree) to 5 (Strongly Agree)
+User Responds to 10 questions with a value from 1(Strongly Disagree) to 5(Strongly Agree)
 
 When the survey is submitted, the user's answers are compared with answers from a list of "friends" and matched with a friend with the closest values for each question
 
